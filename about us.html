@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Website Title and icon -->
+    <title>Dunkin' Donuts</title>
+    <link rel="icon" href="images/icon.png" sizes="96x96" type="image/png">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <section class="sub-header">
+
+        <nav>
+        <a href="index.html"><img src="images/dd_logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                
+                <li> <a href="index.html">HOME</a> </li>
+                <li> <a href="products.html">PRODUCTS</a> </li>
+                <li> <a href="branches.html">BRANCHES</a> </li>
+                <li> <a href="about us.html">ABOUT US</a> </li>
+                <li> <a href="contact us.html">CONTACT US</a> </li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+<!-- Products content-->
+<section class="product-content">
+    <div class="row">
+        <div class="product-col">
+            <h1>Pasalubong ng bayan</h1>
+            <p>Enjoy your favorite Dunkin’ Donuts products, served with a 
+                friendly smile to keep you going wherever you are.</p>
+            <a href="https://www.facebook.com/dunkin.ph/"class="donut-btn new-btn">Explore now!</a>
+        </div>
+        <div class="product-col">
+            <img src="images/donuts.jpg">
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+
+<!-- About Us -->
+
+<selection class="about">
+    <h1>About Us</h1>
+    <p>
+        Dunkin Donuts is the worlds  leading donuts, coffee and baked goods chain, 
+        with over 2,600 stores in more than 30 countries around the world.  
+        In  1981,  Golden donuts Inc. opened its first Dunkin Dounts in the Philippines, 
+        and has since expanded to become the largest donut chain. 
+    </p>
+    <div class="row">
+        <div class="about-col">
+            <img src="images/gdinc.png">
+            <h3>Golden Donuts Inc.</h3>
+            <p>Golden Donuts Inc. is the one responsible for executing all Dunkin Donuts 
+                Franchises and it has been doing a good job when it comes to promoting the 
+                brand as the Dunkin Donut Franchise in the Philippines is growing more and 
+                more popular and competitive at the same time.</p>
+        </div>
+        <div class="about-col">
+            <img src="images/donutbox.jpg">
+            <h3>Dunkin' Donuts</h3>
+            <p>In the Philippines, operated by Golden Donuts Inc., the first Dunkin Donuts 
+                Franchise store opened in Quad Car Park, which is now Park Square, in Makati 
+                in 1981. 
+                It then started opening more Dunkin Donuts shops all over Metro Manila, 
+                from dine-in shops to take-out booths, becoming a popular brand of 
+                “pasalubong” in the Philippines.</p>
+        </div>
+        <div class="about-col">
+            <img src="images/pasalubong.png">
+            <h3>Pasalubong ng bayan</h3>
+            <p>Since 1950, with over 2,600 stores in more than 30 countries, 
+                Dunkin’ Donuts has been serving loyal customers around the globe.
+                To date, Dunkin’ Donuts has truly become part of Filipinos’ lives. 
+                “You can’t outgrow your love for Dunkin’ Donuts”.
+                Enjoy your favorite Dunkin’ Donuts products, served with a 
+                friendly smile to keep you going wherever you are.</p>
+        </div>
+    </div>
+    </selection>
+</section>
+
+<!--Footer-->
+<section class="footer">
+<h4>This is just for completion of final requirement in Web Design subject.</h4>
+<div class="icons">
+    <a href="https://www.facebook.com/dunkin.ph/"><i class="fa fa-facebook" ></i></a>
+	<a href="https://www.instagram.com/dunkin_ph/?hl=en"><i class="fa fa-instagram" ></i></a>
+    <a href="https://twitter.com/dunkinph?lang=en#:~:text=Dunkin%27%20Philippines%20(%40dunkinph)%20%7C%20Twitter"><i class="fa fa-twitter" ></i></a>
+</div>
+<p>&copy; 2021 Dunkin' Donuts. Designed by - Clifford M. Villanoy (for completion of final requirement in Web Design subject only.)</p>
+</section>
+
+<!--JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
